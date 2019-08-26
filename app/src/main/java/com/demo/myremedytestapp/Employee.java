@@ -39,4 +39,14 @@ public class Employee {
     public void setCity(String city) {
         this.city = city;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", doj='" + doj + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }
