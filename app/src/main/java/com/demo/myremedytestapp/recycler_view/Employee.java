@@ -1,4 +1,4 @@
-package com.demo.myremedytestapp;
+package com.demo.myremedytestapp.recycler_view;
 
 public class Employee {
     private String name;
