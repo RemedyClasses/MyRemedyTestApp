@@ -105,18 +105,17 @@ public class GooglePayActivity extends AppCompatActivity {
                         dataList.add(trnxData);
                         upiPaymentDataOperations(dataList);
 
-/*
-txnId=PTMa06946dec3bb41d79bf952163dac796a
-responseCode=U30-XH
-ApprovalRefNo=934243420531
-Status=FAILURE
-=============================================
-txnId=PTMa06946dec3bb41d79bf952163dac796a
-responseCode=U30-XH
-ApprovalRefNo=934243420531
-Status=FAILURE
-*/
-
+                    /*
+                        txnId=PTMa06946dec3bb41d79bf952163dac796a
+                        responseCode=U30-XH
+                        ApprovalRefNo=934243420531
+                        Status=FAILURE
+                        =============================================
+                        txnId=PTMa06946dec3bb41d79bf952163dac796a
+                        responseCode=U30-XH
+                        ApprovalRefNo=934243420531
+                        Status=FAILURE
+                    */
 
                     }else {
                         Log.i(TAG, "onActivityResult: "+ "Return data is null");
